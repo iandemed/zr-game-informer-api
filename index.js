@@ -1,4 +1,17 @@
-console.log("iandemed checking in")
-console.log("moe checking in")
+const express = require("express");
+const cors = require("cors");
 
-console.log("http://www.reddit.com/u/absurdlyeloquent")
+let app = express();
+
+app.use(express.json());
+
+// Enable all CORS requests with npm package
+app.use(cors());
+
+app.use("/", require("./routes/index"));
+
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🦑`);
+});
