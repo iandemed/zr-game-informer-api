@@ -1,3 +1,4 @@
+[
 {
     "_id":  "5a0fa8a6ae5bc100213c233b",
     "game": "5a0fa648ae5bc100213c2332",
@@ -6,7 +7,7 @@
     "graphics": 1,
     "gameplay": 3,
     "replayability": 5
-}
+},
 
 {
     "_id":  "5a107ffee0686c0021283b21",
@@ -17,3 +18,4 @@
     "gameplay": 3,
     "replayability": 3
 }
+]
