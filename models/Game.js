@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const Game = new Schema({
   index: String,
   name: String,
+  imageURL: String,
   platform: [String],
   genre: String, // The prevailing genre of the game (ex. Halo is a Shooter)
   tags: [String], // Keywords to add more nuiance to the description
