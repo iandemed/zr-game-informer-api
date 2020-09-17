@@ -1,5 +1,3 @@
-const mongoose = require("./connection");
-
 const Game = require("../models/Game");
 const gameData = require("./games.json");
 

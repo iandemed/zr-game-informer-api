@@ -1,8 +1,8 @@
-const { Schema } = require("mongoose");
 const mongoose = require("../db/connection");
+const Schema = mongoose.Schema;
 
 const Review = new Schema({
-  game: { type: Schema.Types.ObjectID, ref: "Game" },
+  // game: { type: Schema.Types.ObjectId, ref: "Game" },
   overall: {
     /* Currently user inputed, ideally this will be an average
      of all of the categories */
