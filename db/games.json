@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "5a0fa648ae5bc100213c2332",
+    "index": "minecraft",
+    "name": "Minecraft",
+    "platforms": [
+      "PC",
+      "Xbox One",
+      "Xbox 360",
+      "Nintendo Switch",
+      "Playstation 4",
+      "Playstation 3",
+      "Playstation Vita",
+      "Wii U",
+      "Nintendo 3DS",
+      "Mobile",
+      "Amazon Fire",
+      "Oculus"
+    ],
+    "genre": "Survival",
+    "tags": ["Sandbox", "Co-Op", "Creative"],
+    "reviews": ["5a0fa8a6ae5bc100213c233b"],
+    "maxPlayers": 100000,
+    "modable": true
+  },
+  {
+    "_id": "5a0fa67dae5bc100213c2333",
+    "index": "final-fantasy-11",
+    "name": "Final Fantasy 11",
+    "platforms": ["PC", "Xbox 360", "Playstation 2"],
+    "genre": "MMORPG",
+    "tags": ["RPG", "Fantasy", "Co-Op"],
+    "reviews": ["5a107ffee0686c0021283b21"],
+    "maxPlayers": 18,
+    "modable": true
+  },
+  {
+    "_id": "5a0fa7dcae5bc100213c2338",
+    "index": "grand-theft-auto-5",
+    "name": "Grand Theft Auto 5",
+    "platforms": ["PC", "Xbox 360", "Playstation 2"],
+    "genre": "MMORPG",
+    "tags": ["RPG", "Fantasy", "Co-Op"],
+    "reviews": [],
+    "maxPlayers": 30,
+    "modable": true
+  }
+]
