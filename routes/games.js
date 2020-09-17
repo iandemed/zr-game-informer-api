@@ -5,8 +5,17 @@ const Game = require("../models/Game");
 
 router.get("/", gamesController.index);
 
-router.get("/index/:index", (req, res) => {
-  Game.find({ index: req.params.index }).then((games) => res.json(games));
+
+router.get("/id/:id", (req, res) => {
+    Game.find({ index: req.params.index })
+      .populate("reviews")
+      .then((games) => res.json(games));
+  });
+
+  router.get("/index/:index", (req, res) => {
+  Game.find({ index: req.params.index })
+    .populate("reviews")
+    .then((games) => res.json(games));
 });
 
 router.post("/", (req, res) => {
@@ -14,7 +23,7 @@ router.post("/", (req, res) => {
 });
 
 router.put("/index/:index", (req, res) => {
-  Game.findOneAndUpdate({index: req.params.index},(req.body)).then((games) => {
+  Game.findOneAndUpdate({ index: req.params.index }, req.body).then((games) => {
     res.json(games);
   });
 });
