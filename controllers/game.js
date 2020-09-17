@@ -8,8 +8,8 @@ module.exports = {
         res.json(games);
       });
   },
-  findById: (req, res) => {
-    Game.findById(req.params.index)
+  findByIndex: (req, res) => {
+    Game.findByIndex(req.params.index)
       .populate("reviews")
       .then((games) => {
         res.json(games);
@@ -37,7 +37,7 @@ module.exports = {
       res.json(games);
     });
   },
-  deleteById: (req, res) => {
+  deleteByIndex: (req, res) => {
     Game.findOneAndDelete({ index: req.params.index }, req.body).then(
       (games) => {
         res.json(games);
