@@ -14,9 +14,7 @@ router.post("/", (req, res) => {
 });
 
 router.put("/index/:index", (req, res) => {
-  Game.findOneAndUpdate({
-    index: req.params.index,
-  }).then((games) => {
+  Game.findOneAndUpdate({index: req.params.index},(req.body)).then((games) => {
     res.json(games);
   });
 });
