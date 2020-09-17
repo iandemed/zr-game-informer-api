@@ -1,4 +1,4 @@
-const Review = require("../models/Game");
+const Review = require("../models/Review");
 
 module.exports = {
   index: (req, res) => {
