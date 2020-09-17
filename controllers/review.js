@@ -6,4 +6,24 @@ module.exports = {
       res.json(reviews);
     });
   },
+  findById: (req, res) => {
+    Review.findById(req.params.id).then((review) => {
+      res.json(review);
+    });
+  },
+  create: (req, res) => {
+    Review.create(req.body).then((review) => {
+      res.json(review);
+    });
+  },
+  editById: (req, res) => {
+    Review.findOneAndUpdate({ _id: req.params.id }, req.body).then((review) => {
+      res.json(review);
+    });
+  },
+  deleteById: (req, res) => {
+    Review.findOneAndDelete({ _id: req.params.id }, req.body).then((review) => {
+      res.json(review);
+    });
+  },
 };
