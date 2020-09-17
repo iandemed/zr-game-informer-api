@@ -5,24 +5,24 @@ const Game = require("../models/Game");
 
 router.get("/", gamesController.index);
 
-router.get("/name/:name", (req, res) => {
-  Game.find({ name: req.params.name }).then((games) => res.json(games));
+router.get("/index/:index", (req, res) => {
+  Game.find({ index: req.params.index }).then((games) => res.json(games));
 });
 
 router.post("/", (req, res) => {
   Game.create(req.body).then((Game) => res.json(Game));
 });
 
-router.put("/name/:name", (req, res) => {
+router.put("/index/:index", (req, res) => {
   Game.findOneAndUpdate({
-    name: req.params.name,
+    index: req.params.index,
   }).then((games) => {
     res.json(games);
   });
 });
 
-router.delete("/name/:name", (req, res) => {
-  Game.findOneAndDelete({ name: req.params.name }).then((games) => {
+router.delete("/index/:index", (req, res) => {
+  Game.findOneAndDelete({ index: req.params.index }).then((games) => {
     res.json(games);
   });
 });
