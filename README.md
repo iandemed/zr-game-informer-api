@@ -136,6 +136,7 @@ Notes:
 "graphics": 4,
 "gameplay": 3,
 "replayability": 3,
+"comments": "One of my all time favorite games!",
 "__v": 0
 }
 ```
@@ -149,6 +150,7 @@ Notes:
 | `difficulty`    | Number   | Rating of the game's difficulty from 1 to 5      |
 | `graphics`      | Number   | Rating of the game's visual graphics from 1 to 5 |
 | `replayability` | Number   | Rating of the game's replay value from 1 to 5    |
+| `comments`      | String   | Overall comments on the game                     |
 
 Notes:
 
