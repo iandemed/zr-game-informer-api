@@ -3,6 +3,7 @@
     "_id": "5a0fa648ae5bc100213c2332",
     "index": "minecraft",
     "name": "Minecraft",
+    "imageURL": "https://upload.wikimedia.org/wikinews/en/7/7a/Minecraft_game_cover.jpeg",
     "platforms": [
       "PC",
       "Xbox One",
@@ -19,7 +20,7 @@
     ],
     "genre": "Survival",
     "tags": ["Sandbox", "Co-Op", "Creative"],
-    "reviews": ["5a0fa8a6ae5bc100213c233b","5b0fa8a6ae5bc100213c234b"],
+    "reviews": ["5a0fa8a6ae5bc100213c233b", "5b0fa8a6ae5bc100213c234b"],
     "maxPlayers": 100000,
     "modable": true
   },
@@ -27,6 +28,7 @@
     "_id": "5a0fa67dae5bc100213c2333",
     "index": "final-fantasy-11",
     "name": "Final Fantasy 11",
+    "imageURL": "https://images-na.ssl-images-amazon.com/images/I/51Ro%2BgfSjbL._AC_SX385_.jpg",
     "platforms": ["PC", "Xbox 360", "Playstation 2"],
     "genre": "MMORPG",
     "tags": ["RPG", "Fantasy", "Co-Op"],
@@ -38,6 +40,7 @@
     "_id": "5a0fa7dcae5bc100213c2338",
     "index": "grand-theft-auto-5",
     "name": "Grand Theft Auto 5",
+    "imageURL": "https://hips.hearstapps.com/digitalspyuk.cdnds.net/13/14/gaming-gta5-cover.jpeg",
     "platforms": ["PC", "Xbox 360", "Playstation 2"],
     "genre": "MMORPG",
     "tags": ["RPG", "Fantasy", "Co-Op", "Action"],
