@@ -3,7 +3,7 @@ const gameData = require("./games.json");
 
 const Review = require("../models/Review");
 const reviewData = require("./reviews.json");
-
+// Deletes any existing data, and creates fresh Game data
 Game.deleteMany({}).then(
   Game.create(gameData)
     .then(() => {
@@ -13,7 +13,7 @@ Game.deleteMany({}).then(
       console.log("Failed to seed data.", err);
     })
 );
-
+// Deletes any existing data, and creates fresh Review data
 Review.deleteMany({}).then(
   Review.create(reviewData)
     .then(() => {

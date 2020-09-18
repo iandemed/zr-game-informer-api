@@ -10,6 +10,7 @@ app.use(cors());
 
 app.use("/", require("./routes/index"));
 
+// creates localhost:8080 locally
 app.set("port", process.env.PORT || 8080);
 
 app.listen(app.get("port"), () => {
