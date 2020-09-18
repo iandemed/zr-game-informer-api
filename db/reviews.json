@@ -5,7 +5,8 @@
     "difficulty": 1,
     "graphics": 1,
     "gameplay": 3,
-    "replayability": 5
+    "replayability": 5,
+    "comments": "This game is really fun!"
   },
 
   {
@@ -14,6 +15,25 @@
     "difficulty": 4,
     "graphics": 4,
     "gameplay": 3,
-    "replayability": 3
+    "replayability": 3,
+    "comments": "One of my all time favorite games!"
+  },
+  {
+    "_id": "5a107ffee0686c0021283b22",
+    "overall": 1,
+    "difficulty": 3,
+    "graphics": 4,
+    "gameplay": 1,
+    "replayability": 1,
+    "comments": "Terrible game. After logging 23,045 hours, I'm emailing Rockstar to hopefully get my money back! I was banned for a money glitch! Not my fault you guys have bugs."
+  },
+  {
+    "_id": "5b0fa8a6ae5bc100213c234b",
+    "overall": 5,
+    "difficulty": 5,
+    "graphics": 5,
+    "gameplay": 5,
+    "replayability": 5,
+    "comments": "So cool!"
   }
 ]
