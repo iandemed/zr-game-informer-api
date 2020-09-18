@@ -6,20 +6,19 @@
 
 We created and deployed an API to Heroku that contains basic information on video games, and reviews from (currently) anonymous users
 
-## Table of Contents
-
 - [Game Review API](#game-review-api)
+  - [Overview](#overview)
   - [Techincal Requirements](#techincal-requirements)
     - [Technologies Used](#technologies-used)
     - [Dependencies](#dependencies)
     - [Authentication](#authentication)
   - [Resource List](#resource-list)
     - [Games](#games)
-      - [GET /games/index/:index](#get-/games/index/:index)
+      - [GET /games/index/:index](#get--games-index--index)
       - [Games Schema](#games-schema)
     - [Reviews](#reviews)
-      - [GET /reviews/{\_id}](#get-/reviews/{_id})
-      - [Reviews](#reviews-schema)
+      - [GET /reviews/:\_id](#get--reviews----id)
+      - [Reviews Schema](#reviews-schema)
   - [Additional Notes](#additional-notes)
 
 ## Techincal Requirements
@@ -127,7 +126,7 @@ Notes:
 
 ### Reviews
 
-#### GET /reviews/{\_id}
+#### GET /reviews/:\_id
 
 ```JSON
 {
