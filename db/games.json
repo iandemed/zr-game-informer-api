@@ -19,7 +19,7 @@
     ],
     "genre": "Survival",
     "tags": ["Sandbox", "Co-Op", "Creative"],
-    "reviews": ["5a0fa8a6ae5bc100213c233b"],
+    "reviews": ["5a0fa8a6ae5bc100213c233b","5a0fa8a6ae5bc100213c234b"],
     "maxPlayers": 100000,
     "modable": true
   },
@@ -40,7 +40,7 @@
     "name": "Grand Theft Auto 5",
     "platforms": ["PC", "Xbox 360", "Playstation 2"],
     "genre": "MMORPG",
-    "tags": ["RPG", "Fantasy", "Co-Op"],
+    "tags": ["RPG", "Fantasy", "Co-Op", "Action"],
     "reviews": [],
     "maxPlayers": 30,
     "modable": true

@@ -30,6 +30,9 @@ const Review = new Schema({
     min: 1,
     max: 5,
   },
+  comments: {
+    String,
+  }
 });
 
 module.exports = mongoose.model("Review", Review);
