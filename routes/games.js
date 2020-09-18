@@ -8,5 +8,6 @@ router.get("/index/:index", gamesController.findByIndex);
 router.post("/", gamesController.create);
 router.put("/:id", gamesController.editById);
 router.delete("/:id", gamesController.deleteById);
+router.delete("/index/:index", gamesController.deleteByIndex);
 
 module.exports = router;

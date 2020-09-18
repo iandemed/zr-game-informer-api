@@ -57,14 +57,15 @@ Theere are currently two principal collections in this: the games themselves and
 
 The root directory for each collection (`/games` and `/reviews` respectivley) provides a JSON containing all of the entries in the database. Below are examples of the HTTP requests that you can send into the API along with the output you may expect to recieve.
 
-| **Route name** | **URL**               | **HTTP Verb** | **Description**                                                         |
-| -------------- | --------------------- | ------------- | ----------------------------------------------------------------------- |
-| Index          | /{resource}           | GET           | Display a list of all Games or Reviews                                  |
-| Show ID        | /{resource}/{:id}     | GET           | Display a specific Game or Review based on their ID                     |
-| Show by Index  | /games/index/{:index} | GET           | Display a specific Game based on its index                              |
-| Create         | /{resource}           | POST          | Add new Game or Review to the database, returns the newly created entry |
-| Edit By Id     | /{resource}/{:id}     | PUT           | Update a particular Game or Review, returns the old entry               |
-| Delete         | /{resource}/{:id}     | DELETE        | Delete a particular Game or Review, returns the deleted entry           |
+| **Route name**  | **URL**                 | **HTTP Verb** | **Description**                                                         |
+| --------------- | ----------------------- | ------------- | ----------------------------------------------------------------------- |
+| Index           | /{resource}             | GET           | Display a list of all Games or Reviews                                  |
+| Show ID         | /{resource}/{:id}       | GET           | Display a specific Game or Review based on their ID                     |
+| Show by Index   | /games/index/{:index}   | GET           | Display a specific Game based on its index                              |
+| Create          | /{resource}             | POST          | Add new Game or Review to the database, returns the newly created entry |
+| Edit By Id      | /{resource}/{:id}       | PUT           | Update a particular Game or Review, returns the old entry               |
+| Delete By Id    | /{resource}/{:id}       | DELETE        | Delete a particular Game or Review, returns the deleted entry           |
+| Delete By Index | /{resource}/index/{:id} | DELETE        | Delete a particular Game or Review, returns the deleted entry           |
 
 ### Games
 

@@ -9,7 +9,7 @@ module.exports = {
       });
   },
   findByIndex: (req, res) => {
-    Game.findByIndex(req.params.index)
+    Game.find({ index: req.params.index })
       .populate("reviews")
       .then((games) => {
         res.json(games);
